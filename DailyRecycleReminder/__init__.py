@@ -35,7 +35,7 @@ def main(mytimer: func.TimerRequest) -> None:
 
     # if its not tuesday, don't bother
     if today.weekday() != 1:
-        pass
+        return
 
     epoch = datetime.datetime(2022, 12, 13, tzinfo=timezone)
 
